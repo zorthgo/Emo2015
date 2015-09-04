@@ -11,7 +11,30 @@
 
 module.exports.bootstrap = function(cb) {
 
-  // It's very important to trigger this callback method when you are finished
-  // with the bootstrap!  (otherwise your server will never lift, since it's waiting on the bootstrap)
-  cb();
+    // Emoji.create([
+    //   {
+    //     text: '=)'
+    //   },
+    //   {
+    //     text: ';)'
+    //   },
+    //   {
+    //     text: ':)'
+    //   }
+    //   ]).exec({
+    //     error: function(err){
+    //       cb(err);
+    //       console.log('lift Failed! Error message: ' + err);
+    //     },
+    //     success: function(result){
+    //       // It's very important to trigger this callback method when you are finished
+    //       // with the bootstrap!  (otherwise your server will never lift, since it's waiting on the bootstrap)
+    //       cb();
+    //       console.log('lift worked!');
+    //     }
+    //   });
+    
+        // It's very important to trigger this callback method when you are finished
+        // with the bootstrap!  (otherwise your server will never lift, since it's waiting on the bootstrap)
+       cb();
 };

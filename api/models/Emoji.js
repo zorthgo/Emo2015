@@ -8,7 +8,10 @@
 module.exports = {
 
   attributes: {
-
+    // example: ":("
+    text: {
+      type: 'string'
+    }
   }
 };
 

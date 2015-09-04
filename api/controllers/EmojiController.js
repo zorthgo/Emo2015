@@ -6,6 +6,12 @@
  */
 
 module.exports = {
+	//These functions are present whenever a model is created.
+	// find: function(req, res){},
+	// findOne: function(req, res){},
+	// create: function(req, res){},
+	// update: function(req, res){},
+	// destroy: function(req, res){},
 	
 };
 
